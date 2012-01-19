@@ -9,8 +9,13 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int a = 2;
             String s = "";
             Console.WriteLine("ESCRIBA Y PARA CONTINUAR");
+            Class1 c = new Class1();
+            if (c.esPar(a) == true) { Console.WriteLine("ES PAR"); }
+            else{Console.WriteLine("NO ES PAR");}
+
             do
             {
                 s = Console.ReadLine();
